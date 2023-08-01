@@ -1,10 +1,12 @@
-import './App.css'
+import Background from './Background'
+import TaskList from './TaskList'
 
 function App() {
 
   return (
     <>
-      <h1></h1>
+      <Background/>
+      <TaskList/>
     </>
   )
 }
