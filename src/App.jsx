@@ -1,8 +1,9 @@
-import Background from "./Background";
-import TaskList from "./TaskList";
-import Navbar from "./Navbar";
-import CreateTodo from './CreateTodo'
-import ViewOptions from './ViewOptions'
+import Background from "./components/Background";
+import TaskList from "./components/TaskList";
+import Navbar from "./components/Navbar";
+import CreateTodo from './components/CreateTodo'
+import ViewOptions from './components/ViewOptions'
+import Note from './components/Note'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Background />
       <TaskList />
       <ViewOptions/>
+      <Note/>
     </>
   );
 }
