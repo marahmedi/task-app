@@ -8,12 +8,13 @@ import Note from './components/Note'
 function App() {
   return (
     <>
+      <Background>
       <Navbar />
       <CreateTodo/>
-      <Background />
       <TaskList />
       <ViewOptions/>
       <Note/>
+      </Background>
     </>
   );
 }
